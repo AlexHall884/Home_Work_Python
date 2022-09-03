@@ -10,7 +10,7 @@ def find_a_quarter():
     x_coordinates = int(input('Введите координаты X : '))
     y_coordinates = int(input('Введите координаты Y : '))
     
-    while x_coordinates == 0 and y_coordinates == 0:
+    while x_coordinates == 0 or y_coordinates == 0:
         print('X и Y не должны быть равны 0 ')
         x_coordinates = int(input('Введите координаты X : '))
         y_coordinates = int(input('Введите координаты Y : '))   
